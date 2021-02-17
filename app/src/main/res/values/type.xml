@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AppCompat.TextView.title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?attr/colorTitle</item>
+    </style>
+    <style name="Widget.AppCompat.TextView.primary">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/colorPrimaryText</item>
+    </style>
+    <style name="Widget.AppCompat.TextView.secondary">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorSecondaryText</item>
+    </style>
+    <style name="Widget.AppCompat.TextView.description">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/colorDescriptionText</item>
+    </style>
+
+</resources>

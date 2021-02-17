@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?actionBarSize"
+    android:padding="32dp"
+    android:paddingTop="?actionBarSize"
+    tools:context=".fragments.SettingsFragment">
+
+    <!-- Setting 1: Pomodoro work timer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.TextView.primary"
+            android:text="@string/setting_pomodoro_work_time"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/pomodoro_work_timer_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.TextView.description"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!-- Setting 1: Pomodoro work timer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.TextView.primary"
+            android:text="@string/setting_pomodoro_rest_time"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/pomodoro_rest_timer_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.TextView.description"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!-- Setting 1: -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.TextView.primary"
+            android:text="@string/setting_theme"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/setting_app_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.TextView.description"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <!-- Setting 1: -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</LinearLayout>

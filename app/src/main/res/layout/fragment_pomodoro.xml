@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PomodoroFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="?actionBarSize"
+    android:background="@drawable/bg_pomodoro_rest">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/start_pomodoro"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        style="@style/Widget.AppCompat.Button.PomodoroTimer"
+        android:text="@string/pomodoro_starter"/>
+
+</LinearLayout>

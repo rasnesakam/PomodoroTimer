@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/drawer_pomodoro_start"
+            android:icon="@drawable/ic_round_hourglass_top_24"
+            android:title="@string/pomodoro_starter"/>
+        <item android:id="@+id/drawer_app_settings"
+            android:icon="@drawable/ic_settings_24"
+            android:title="@string/drawer_app_general_settings"/>
+        <item android:id="@+id/drawer_about"
+            android:icon="@drawable/ic_copyright_24"
+            android:title="@string/credit"/>
+    </group>
+
+</menu>

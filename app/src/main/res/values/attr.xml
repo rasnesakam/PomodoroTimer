@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorTitle" format="reference"/>
+    <attr name="colorPrimaryText" format="reference"/>
+    <attr name="colorSecondaryText" format="reference"/>
+    <attr name="colorDescriptionText" format="reference"/>
+
+    <!-- Pomodoro timer bg colors -->
+    <attr name="colorOnWork" format="reference"/>
+    <attr name="colorOnWorkVariant" format="reference"/>
+    <attr name="colorOnWorkVariant_2" format="reference"/>
+    <attr name="colorOnRest" format="reference"/>
+    <attr name="colorOnRestVariant" format="reference"/>
+    <attr name="colorOnRestVariant_2" format="reference"/>
+</resources>

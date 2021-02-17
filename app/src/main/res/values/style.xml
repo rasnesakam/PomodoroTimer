@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Toolbars Themes -->
+
+    <!-- Abstracts -->
+    <style name="ThemeOverlay.AppCompat.ToolBar">
+        <item name="android:color">@color/white</item>
+        <item name="android:textColorPrimary">?colorOnPrimary</item>
+        <item name="android:textColorSecondary">?colorOnSecondary</item>
+        <item name="actionMenuTextColor">?colorOnBackground</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.ToolBar.Curved">
+        <item name="android:background">@drawable/bg_toolbar_curved_16</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.ToolBar.Regular">
+        <item name="android:background">@drawable/bg_toolbar_regular</item>
+    </style>
+    <!-- Abstracts -->
+
+    <!-- Concretes -->
+    <style name="ThemeOverlay.AppCompat.ToolBar.Curved.Default">
+        <item name="colorPrimary">?colorPrimary</item>
+        <item name="colorSecondary">?colorSecondary</item>
+        <item name="colorOnPrimary">?colorOnPrimary</item>
+        <item name="colorOnSecondary">?colorOnSecondary</item>
+    </style>
+    <!-- Concretes -->
+
+    <!-- Toolbars Themes -->
+
+    <!-- Logo Theme -->
+    <style name="logo">
+        <item name="android:background">#201299</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/developer</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <!-- Logo Theme -->
+
+    <!-- Widget Themes -->
+
+    <style name="Widget.AppCompat.Button.PomodoroTimer">
+        <item name="android:background">@drawable/bg_timer_start_btn</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+    </style>
+
+    <!-- Widget Themes -->
+
+
+</resources>

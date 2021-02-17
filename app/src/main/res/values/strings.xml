@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pomodoro Timer</string>
+
+    <!-- General strings -->
+    <string name="developer">experimentalsoftwares</string>
+    <string name="developer_motto">Developing for experience</string>
+    <string name="credit">About</string>
+    <string name="pomodoro_work_time">Work Time!</string>
+    <string name="pomodoro_work_time_snackbar">Let\'s get to work</string>
+    <string name="pomodoro_rest_time">Rest Time!</string>
+    <string name="pomodoro_rest_time_snackbar">Let\'s get some rest</string>
+
+    <!-- General strings -->
+
+    <!-- Error Strings -->
+    <string name="setting_save_err">Settings couldn\'t save. Please try again later or contact us</string>
+    <!-- Error Strings -->
+
+    <!-- Drawer strings -->
+    <string name="drawer_app_general_settings">App Settings</string>
+    <string name="drawer_app_pomodoro_settings">Pomodoro Settings</string>
+    <string name="drawer_title">Manage Your Time</string>
+    <string name="navigation_draw_open">Navigation draw opened</string>
+    <string name="navigation_draw_close">Navigation draw closed</string>
+    <string name="pomodoro_starter">Start pomodoro timer</string>
+    <!-- Drawer strings -->
+
+    <!-- Settings Strings -->
+    <string name="setting_pomodoro_work_time">Pomodoro work timer</string>
+    <string name="setting_pomodoro_rest_time">Pomodoro rest timer</string>
+    <string name="setting_theme">App theme</string>
+    <string name="save">Save</string>
+    <!-- Settings Strings -->
+
+
+</resources>
